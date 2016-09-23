@@ -1,4 +1,4 @@
-%w( mysql mysql-server ).each do |pkg|
+%w( mysql mysql-server mysql-devel ).each do |pkg|
   package pkg
 end
 
